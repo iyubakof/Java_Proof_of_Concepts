@@ -55,6 +55,7 @@ public class Main {
 		boolean s5 = arrayHasExactMatch (myList, "foo", false);
 		boolean s6 = arrayHasExactMatch (myList, "delta", true);
 		boolean s7 = arrayHasExactMatch (myList, "Delta", true);
+			//work in progress
 		int[] s8 = indexOfOccuranceInArray (myList, "zo", false);
 		int[] s9 = indexOfOccuranceInArray (myList, "zoo", false);
 		int[] s10 = indexOfOccuranceInArray (myList, "zoo", true);
@@ -85,19 +86,19 @@ public class Main {
 		
 		//index occurances
 		System.out.println("\nSceanrio 8");
-		System.out.println("indexOfOccuranceInArray (myList, 'zo', false): returns " + s8);
+		System.out.println("indexOfOccuranceInArray (myList, 'zo', false): returns " + Arrays.toString(s8));
 		System.out.println("\nSceanrio 9");
-		System.out.println("indexOfOccuranceInArray (myList, 'zoo', false): returns " + s9);
+		System.out.println("indexOfOccuranceInArray (myList, 'zoo', false): returns " + Arrays.toString(s9));
 		System.out.println("\nSceanrio 10");
-		System.out.println("indexOfOccuranceInArray (myList, 'zoo', true): returns " + s10);
+		System.out.println("indexOfOccuranceInArray (myList, 'zoo', true): returns " +  Arrays.toString(s10));
 		System.out.println("\nSceanrio 11");
-		System.out.println("indexOfOccuranceInArray (myList, 'foo', true): returns " + s11);
+		System.out.println("indexOfOccuranceInArray (myList, 'foo', true): returns " +  Arrays.toString(s11));
 		System.out.println("\nSceanrio 12");
-		System.out.println("indexOfOccuranceInArray (myList, 'foo', false): returns " + s12);
+		System.out.println("indexOfOccuranceInArray (myList, 'foo', false): returns " +  Arrays.toString(s12));
 		System.out.println("\nSceanrio 13");
-		System.out.println("indexOfOccuranceInArray (myList, 'delta', true): returns " + s13);
+		System.out.println("indexOfOccuranceInArray (myList, 'delta', true): returns " +  Arrays.toString(s13));
 		System.out.println("\nSceanrio 14");
-		System.out.println("indexOfOccuranceInArray (myList, 'Delta', true): returns " + s14);
+		System.out.println("indexOfOccuranceInArray (myList, 'Delta', true): returns " +  Arrays.toString(s14));
 	}
 
 }
