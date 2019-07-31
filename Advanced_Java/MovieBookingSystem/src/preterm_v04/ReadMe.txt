@@ -26,5 +26,4 @@ This iteration will have add some functionality to the swing application
 		- reload matrix
 	*click print seating button
 		- print client list and seat assignment in console
-
-Creator: Yvonne Ubak
+		
